@@ -1,5 +1,5 @@
 {% set name = "bookstore" %}
-{% set version = "2.3.1" %}
+{% set version = "2.4.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: ac8d72754a283ccccc6483d518d952bfdc5ba072a1fff2fbe736fa7e02c69d9c
+  sha256: 0e62fc8f41eb46540b670ba0a3344cb6fd0318a9d92af57cb3a6e4d14393a75a
 build:
   number: 0
   noarch: python
